@@ -4,10 +4,7 @@
  * @desc 行列分布的网页集中文本抓取类 
  * textExtract - text extraction class
  * Created on 2016-08-10
- * author: Wenfeng Xuan
- * Email: wfxuan@insun.hit.edu.cn
- * Blog: http://hi.baidu.com/xwf_like
- 
+ * author: Wenfeng Xuan 
  */
 ini_set('memory_limit','1000M');
 ini_set('pcre.backtrack_limit', 99999);
