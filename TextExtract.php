@@ -4,7 +4,7 @@
  * @desc 行列分布的网页集中文本抓取类 
  * textExtract - text extraction class
  * Created on 2016-08-10
- * author: Wenfeng Xuan 
+ * author: hello  world
  */
 ini_set('memory_limit','1000M');
 ini_set('pcre.backtrack_limit', 99999);
@@ -80,8 +80,7 @@ class TextExtract{
 		// only handle with body section
 		$start=strpos($content ,'<body');
    	 	$end=strpos($content ,'</body');
-    	$content=substr($content,$start,$end-$start);
-    	// bjyz-sys  测试 .*?也可以匹配换行
+    	        $content=substr($content,$start,$end-$start);
 		// 1. DTD information
 		$pattern = '/<!DOCTYPE.*?>/si';
 		$replacement = '';
