@@ -1,6 +1,5 @@
 # NewsWebsite-crawler
-非常通用的新闻网页正文和图片抓取
-
+通用的新闻网页正文和图片抓取
 源代码在【陈鑫】代码基础上做了一些优化：https://github.com/amumu/cx-extractor
 
 优化点:
